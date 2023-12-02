@@ -1,0 +1,238 @@
+@media (min-width: 680px ){
+  .app{
+    height: auto;
+    max-height: 40%;
+    min-height: 80%;
+    max-width: 1500px;
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+    margin-left:100px;
+    margin-right: 100px;
+    font-family: 'Courier New', Courier, monospace; 
+  }
+  .body{
+    display: flex;
+    background-color: rgb(207, 195, 170);
+    position: static;
+    height: 60%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 1%;
+  }
+ 
+  .body>div{
+    display: flex;
+  }
+  .navbar{
+    height: 10%;
+    display: flex;
+    width: 60%;
+    position: relative;
+    left: 40%;
+    box-sizing: border-box;
+   
+  }
+  ul>li{
+    width: 20%;
+    border-color: rgb(206, 202, 198);
+    border-style: dotted;
+    list-style: none;
+    padding:0% 1% 0%  1% ;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: rgb(31, 201, 96);
+  } 
+  ul>li>a{
+    color: rgb(4, 2, 19);
+  }
+  .heading{
+    margin-top: -5%;
+  } 
+  .dp{
+    height: 80%;
+    width: 25%;
+    border-radius: 60px;
+    position: relative;
+    margin: 3% 2% 1% -7%;
+}
+.info{
+  color: blue;
+  letter-spacing: 0.1cap;
+  margin-left: 5%;
+  font-style: oblique;
+}
+.education{
+  display: flex;
+  flex-wrap: wrap;
+}
+.education>ol{
+  max-height: 30%;
+  overflow: auto;
+  color: rgb(83, 61, 61);
+}
+.education>ol>li{
+  list-style-type: none;
+  background-color: rgb(192, 194, 196);
+  font-style: oblique;
+}
+.education{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: aliceblue;
+  position: absolute;
+  border: 2px solid #000;
+  box-shadow: 2px solid black;
+  top: 35%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  display: flex;
+  height: 50%;
+}
+
+.modal-content >button{
+  max-height: 30px;
+  max-width: 30px;
+}
+
+.modal-content>div>img{
+  /* max-height: 20%;
+  max-width: 30%; */
+  border-radius: 5px;
+  border-style: solid;
+  height: 20%;
+  width: 35%;
+}
+.eachEducation{
+  background-color: rgb(192, 194, 196);
+  margin-right: 10px;
+  margin-top: 5%;
+  max-height: 45%;
+  
+}
+
+.contactInfo{
+  margin-left: 25%;
+  background-color: rgb(207, 195, 170);
+}
+.contactTable>tr>td{
+color: #1f0909;
+}
+.contackComp{
+  background-color: rgb(207, 195, 170);
+  height: 100%;
+}
+
+}
+@media(max-width: 680px ){
+  body{
+
+    background-color: antiquewhite;
+    
+  }
+  .app{
+    font-family: 'Courier New', Courier, monospace; 
+  }
+  .navbar{
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;   
+  }
+  ul>li{
+    width: 20%;
+    border-color: bisque;
+    border-style: dotted;
+    list-style: none;
+    padding:0% 1% 0%  1% ;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: rgb(31, 201, 96);
+  } 
+  ul>li>a{
+    color: rgb(12, 8, 46);
+  }
+  .heading{
+   background-color: rgb(24, 42, 59);
+   color: #ffffff;
+  }
+  .dp{
+    height: 90%;
+    width: 100%;
+  }
+  .info{
+    color: blue;
+    letter-spacing: 0.1cap;
+    margin-left: 5%;
+    font-style: oblique;
+  }
+  .education>ol{
+    max-height: 100px;
+    overflow: auto;
+    color: rgb(83, 61, 61);
+    border-top: #1f0909;
+    border-top-style: dashed;
+    border-top-left-radius: 9px;
+    border-bottom-style: dashed;
+    border-bottom-left-radius: 9px;
+    background-color: wheat;
+  }
+  .education>ol>li{
+    list-style-type: none;
+    background-color: rgb(213, 215, 218);
+    width: 90%;
+    font-style: oblique;
+    border-radius: 40px;
+    font-size: 20px;
+    
+  }
+  .modal-content {
+    background-color: aliceblue;
+    position: absolute;
+    border: 2px solid #000;
+    box-shadow: 2px solid black;
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    height: 50%;
+  }
+  
+  .modal-content >button{
+    max-height: 30px;
+    max-width: 30px;
+  }
+  
+  .modal-content>div>img{
+    /* max-height: 20%;
+    max-width: 30%; */
+    border-radius: 5px;
+    border-style: solid;
+    height: 10%;
+    width: 35%;
+  }
+  .eachEducation{
+    background-color: rgb(192, 194, 196);
+    margin-right: 10px;
+    margin-top: 5%;
+    max-height: 45%;
+    
+  }
+  .contactInfo{
+    margin-left: 5%;
+    background-color: rgb(207, 195, 170);
+  }
+  .contactTable>tr>td{
+  color: #1f0909;
+  height: 50px;
+  color: #290d55;
+  }
+  .contackComp{
+    background-color: rgb(207, 195, 170);
+    height: 100%;
+  }
+}

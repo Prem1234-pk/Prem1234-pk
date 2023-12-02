@@ -1,0 +1,6 @@
+const listOfEducation = [{ "university":"C.B.S.E","course":"X","schoolName":"Kailash Rai Saraswati Vidya Mandir","session":"Upto 2014","grade":"B+","percentOrCGPA":"7.2","type":"Full Time","path":require("../Files/CertificateImages/X results.jpg")},
+{ "university":"C.B.S.E","course":"XII","schoolName":"Kailash Rai Saraswati Vidya Mandir","session":"2014 - 2016","grade":"B","percentOrCGPA":"68%","type":"Full Time","path":require("../Files/CertificateImages/Xii results.jpg")},
+{ "university":"University of Mumbai","course":"B.Sc - Mathematics","schoolName":"Smt. C.H.M College","session":"2016 - 2019","grade":"A","percentOrCGPA":"7.87","type":"Full Time","path":require("../Files/CertificateImages/BSc results.jpg")},
+{ "university":"University of Mumbai","course":"MSC - IT","schoolName":"K.J. Somaiya College of Science and Commerce","session":"2019 - 2021","grade":"A+","percentOrCGPA":"8.83","type":"Full Time","path":require("../Files/CertificateImages/MSc results.jpg")}]
+
+export default listOfEducation;
