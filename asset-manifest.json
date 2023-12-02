@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Prem1234-pk/static/css/main.15e56350.css",
+    "main.js": "/Prem1234-pk/static/js/main.39f33184.js",
+    "static/media/X results.jpg": "/Prem1234-pk/static/media/X results.777dfaef70a518702dec.jpg",
+    "static/media/Maxima Concept.jpg": "/Prem1234-pk/static/media/Maxima Concept.655c15b452f8245f7169.jpg",
+    "static/media/MSc results.jpg": "/Prem1234-pk/static/media/MSc results.b8eb65362bc49539538a.jpg",
+    "static/media/BSc results.jpg": "/Prem1234-pk/static/media/BSc results.757011fffcf7b6ec12ac.jpg",
+    "static/media/Rotary Club.jpg": "/Prem1234-pk/static/media/Rotary Club.f560ca41c7f71a9f85fa.jpg",
+    "static/media/Unified Council.jpg": "/Prem1234-pk/static/media/Unified Council.70d691c272db700811c4.jpg",
+    "static/media/Xii results.jpg": "/Prem1234-pk/static/media/Xii results.bf52c0cac3a89b12c67d.jpg",
+    "static/media/NSTSE.jpg": "/Prem1234-pk/static/media/NSTSE.fa31e7ce5b09ed65e68d.jpg",
+    "static/media/Shell Scripting.jpg": "/Prem1234-pk/static/media/Shell Scripting.a42f2e2593ee59987d0a.jpg",
+    "static/media/logo.jpg": "/Prem1234-pk/static/media/logo.ea68e4d8fb103e33cad5.jpg",
+    "static/media/Full Stack.jpg": "/Prem1234-pk/static/media/Full Stack.ae3249b61f6ff5f137d4.jpg",
+    "index.html": "/Prem1234-pk/index.html",
+    "main.15e56350.css.map": "/Prem1234-pk/static/css/main.15e56350.css.map",
+    "main.39f33184.js.map": "/Prem1234-pk/static/js/main.39f33184.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15e56350.css",
+    "static/js/main.39f33184.js"
+  ]
+}
