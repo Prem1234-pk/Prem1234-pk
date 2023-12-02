@@ -1,0 +1,19 @@
+
+
+.dp{
+    
+    height: 300px;
+    width: 300px;
+    border-radius: 100px;
+    position: relative;
+    padding: 3%;
+
+}
+.info{
+    background-color: rgb(66, 103, 228);
+    height: 200px;
+    width: 400px;
+    margin-top: 160px;
+    margin-left: 50px;
+    color: rgb(196, 120, 120);
+}

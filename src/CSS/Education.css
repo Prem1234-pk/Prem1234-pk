@@ -1,0 +1,72 @@
+
+
+.eachEducation{
+    background-color: beige;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    max-height: 150px;
+    margin: 1.5%;
+    
+}
+
+.education{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eachEducation>h2{
+    color: rgb(21, 53, 78);
+    font-size: larger;
+    margin: 5px;
+    position:sticky;
+    max-height: 30%;
+}
+.eachEducation>h3{
+    color: rgb(78, 21, 40);
+    font-size: large;
+    margin: 5px;
+    position:sticky;
+    max-height: 50%;
+   
+}
+.eachEducation>h4{
+    color: rgb(28, 51, 14);
+    font-size: medium;
+    margin: 5px;
+    position:sticky;
+    max-height: 20%;
+}
+
+.modal-content {
+    background-color: aliceblue;
+    position: absolute;
+    border: 2px solid #000;
+    box-shadow: 2px solid black;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to center */
+    display: flex;
+    height: 600px;
+  }
+
+  .modal-content >button{
+    max-height: 30px;
+    max-width: 30px;
+  }
+  .modal-content>div>img{
+    height: 100%;
+    width: 100%;
+  }
+.modal-content>div>img{
+    max-height: 200px;
+    max-width: 300px;
+    border-radius: 5px;
+    border-style: solid;
+}
+.education>ul{
+color: #000;
+border-style: groove;
+margin: 2%;
+background-color: rgb(215, 221, 216);
+}
